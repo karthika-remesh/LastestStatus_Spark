@@ -27,12 +27,12 @@ Run the Spark application using the following command:
 
 # Submit Spark Job
 ```spark-submit --class Main --master <master-url> <path-to-jar> <input-csv-file> <output-directory> <config-json-file> <epoch-timestamp>```
-<br/> <master-url>: The Spark master URL.
-<br/> <path-to-jar>: The path to the JAR file created in step 2.
-<br/> <input-csv-file>: The path to the input CSV file.
-<br/> <output-directory>: The directory where the output will be written.
-<br/> <config-json-file>: The path to the JSON configuration file containing cei_code and p_key.
-<br/> <epoch-timestamp>: The epoch timestamp (in seconds) for filtering the latest data.
+* <master-url>: The Spark master URL.
+*  <path-to-jar>: The path to the JAR file created in step 2.
+* <input-csv-file>: The path to the input CSV file.
+* <output-directory>: The directory where the output will be written.
+* <config-json-file>: The path to the JSON configuration file containing cei_code and p_key.
+* <epoch-timestamp>: The epoch timestamp (in seconds) for filtering the latest data.
 The application will process the input data and generate output files in the specified output directory.
 
 # Output
